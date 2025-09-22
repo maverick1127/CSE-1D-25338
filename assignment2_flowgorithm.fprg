@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="assignment2_flowgorithm"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-22 06:56:47 PM"/>
+        <attribute name="created" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA2OjQ2OjA5IFBNOzI5NjY="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA2OjU2OjQ3IFBNOzE7MzA3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number1" type="Integer" array="False" size=""/>
+            <input variable="number1"/>
+            <declare name="number2" type="Integer" array="False" size=""/>
+            <input variable="number2"/>
+            <output expression="&quot; add: Addition, sub: Subtraction, mul: Multiplication, div: Division, rem: Remainder&quot;" newline="True"/>
+            <declare name="op" type="String" array="False" size=""/>
+            <input variable="op"/>
+            <if expression="op = &quot;div&quot;">
+                <then>
+                    <output expression="number1 / number2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="op = &quot;rem&quot;">
+                        <then>
+                            <output expression="number1 % number2" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="op = &quot;add&quot;">
+                                <then>
+                                    <output expression="number1 + number2" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="op = &quot;sub&quot;">
+                                        <then>
+                                            <output expression="number1 - number2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="op = &quot;mul&quot;">
+                                                <then>
+                                                    <output expression="number1 * number2" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Your input must me wrong enter according to what is given: &quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

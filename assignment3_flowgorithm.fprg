@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="assignment3_flowgorithm"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-22 07:06:46 PM"/>
+        <attribute name="created" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA2OjU2OjUzIFBNOzI5NjY="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA3OjA2OjQ2IFBNOzE7MzA3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fromstr" type="String" array="False" size=""/>
+            <input variable="fromstr"/>
+            <declare name="tostr" type="String" array="False" size=""/>
+            <input variable="tostr"/>
+            <declare name="val1" type="Integer" array="False" size=""/>
+            <input variable="val1"/>
+            <if expression="fromstr = &quot;km&quot;">
+                <then>
+                    <if expression="tostr = &quot;m&quot;">
+                        <then>
+                            <output expression="val1 * 1000" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tostr = &quot;mi&quot;">
+                                <then>
+                                    <output expression="val1 * 0.62" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="fromstr = &quot;m&quot;">
+                        <then>
+                            <if expression="tostr = &quot;km&quot;">
+                                <then>
+                                    <output expression="val1 / 1000" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="tostr = &quot;mi&quot;">
+                                        <then>
+                                            <output expression="val1 * 0.00062" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="fromstr = &quot;mi&quot;">
+                                <then>
+                                    <if expression="tostr = &quot;km&quot;">
+                                        <then>
+                                            <output expression="val1 * 1.609" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="tostr = &quot;m&quot;">
+                                                <then>
+                                                    <output expression="val1 * 1609.344" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="assignment1_flowgorithm"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-22 06:46:03 PM"/>
+        <attribute name="created" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA2OjQ0OjM5IFBNOzI5Njc="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA2OjQ2OjAzIFBNOzE7MzA2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="address" type="String" array="False" size=""/>
+            <input variable="address"/>
+            <output expression="adress" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

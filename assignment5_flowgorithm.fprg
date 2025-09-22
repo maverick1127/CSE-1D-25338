@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="assignment5_flowgorithm"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-22 07:12:55 PM"/>
+        <attribute name="created" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA3OjA4OjExIFBNOzI5NTg="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA3OjEyOjU1IFBNOzE7MzA2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a &gt;= c">
+                <then>
+                    <if expression="a &gt;= b">
+                        <then>
+                            <output expression="a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="b" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="c &gt;= b">
+                        <then>
+                            <output expression="c" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="b" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

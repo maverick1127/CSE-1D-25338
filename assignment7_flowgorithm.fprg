@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="assignment5_flowgorithm"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-22 07:20:43 PM"/>
+        <attribute name="created" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA3OjA4OjExIFBNOzI5NTg="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC00R0lLQzFEVDsyMDI1LTA5LTIyOzA3OjIwOjQzIFBNOzM7MzA2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot; Value of x^2 coefficient&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;value of x coefficient&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;value of constant: &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="(-b + (b^2 - 4*a*c)^0.5)/2" newline="True"/>
+            <output expression="(-b - (b^2 - 4*a*c)^0.5)/2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
