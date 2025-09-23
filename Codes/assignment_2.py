@@ -5,8 +5,7 @@ add: Addition
 sub: Subratcion
 mul: Multiplication
 div: Division
-rem: Remainder
-                              
+rem: Remainder                             
 ''').lower()
 
 if choice == 'add':
